@@ -7,7 +7,7 @@ Flutter 可滚动组件的完整示例集合，涵盖 `SingleChildScrollView` �
 ## 目录导航汇总页
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-224934.png" width="320" alt="Chapter 6 Home">
+  <img src="chapter_6_sceen/QQ20260614-224934.png" width="320" alt="Chapter 6 Home">
 </p>
 
 ---
@@ -17,7 +17,7 @@ Flutter 可滚动组件的完整示例集合，涵盖 `SingleChildScrollView` �
 将**单个子组件**变为可滚动。适用于内容略超屏幕、子组件数量不多的场景。
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-224934.png" width="320" alt="6.1 SingleChildScrollView">
+  <img src="chapter_6_sceen/QQ20260614-224934.png" width="320" alt="6.1 SingleChildScrollView">
 </p>
 
 **核心代码** → [chapter_6_1/lib/single_child_scrollview_demo.dart](chapter_6_1/lib/single_child_scrollview_demo.dart)
@@ -41,7 +41,7 @@ SingleChildScrollView(
 最常用的可滚动组件，支持**按需构建**（懒加载），适合长列表场景。
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-224953.png" width="320" alt="6.2 ListView">
+  <img src="chapter_6_sceen/QQ20260614-224953.png" width="320" alt="6.2 ListView">
 </p>
 
 **核心代码** → [chapter_6_2/lib/listview_demo.dart](chapter_6_2/lib/listview_demo.dart)
@@ -75,7 +75,7 @@ ListView.separated(
 ## 6.3 GridView — 二维网格
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225001.png" width="320" alt="6.3 GridView">
+  <img src="chapter_6_sceen/QQ20260614-225001.png" width="320" alt="6.3 GridView">
 </p>
 
 **核心代码** → [chapter_6_3/lib/gridview_demo.dart](chapter_6_3/lib/gridview_demo.dart)
@@ -115,7 +115,7 @@ GridView.builder(
 Sliver 体系的核心：**统一滑动边界内混合多种 Sliver 组件**。
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225009.png" width="320" alt="6.4 CustomScrollView">
+  <img src="chapter_6_sceen/QQ20260614-225009.png" width="320" alt="6.4 CustomScrollView">
 </p>
 
 **核心代码** → [chapter_6_4/lib/custom_scrollview_demo.dart](chapter_6_4/lib/custom_scrollview_demo.dart)
@@ -175,7 +175,7 @@ CustomScrollView(
 ## 6.5 ScrollController — 滚动控制与监听
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225019.png" width="320" alt="6.5 ScrollController">
+  <img src="chapter_6_sceen/QQ20260614-225019.png" width="320" alt="6.5 ScrollController">
 </p>
 
 **核心代码** → [chapter_6_5/lib/scroll_controller_demo.dart](chapter_6_5/lib/scroll_controller_demo.dart)
@@ -207,7 +207,7 @@ _controller.dispose();
 ## 6.6 AnimatedList — 带动画的列表增删
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225028.png" width="320" alt="6.6 AnimatedList">
+  <img src="chapter_6_sceen/QQ20260614-225028.png" width="320" alt="6.6 AnimatedList">
 </p>
 
 **核心代码** → [chapter_6_6/lib/animated_list_demo.dart](chapter_6_6/lib/animated_list_demo.dart)
@@ -242,7 +242,7 @@ _key.currentState!.removeItem(index, (ctx, animation) {
 ## 6.7 PageView — 页面滑动
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225037.png" width="320" alt="6.7 PageView">
+  <img src="chapter_6_sceen/QQ20260614-225037.png" width="320" alt="6.7 PageView">
 </p>
 
 **核心代码** → [chapter_6_7/lib/pageview_demo.dart](chapter_6_7/lib/pageview_demo.dart)
@@ -277,7 +277,7 @@ _controller.previousPage(...);
 ## 6.8 TabBarView — 选项卡视图
 
 <p align="center">
-  <img src="../chapter_6_sceen/QQ20260614-225054.png" width="320" alt="6.8 TabBarView">
+  <img src="chapter_6_sceen/QQ20260614-225054.png" width="320" alt="6.8 TabBarView">
 </p>
 
 **核心代码** → [chapter_6_8/lib/tabbar_view_demo.dart](chapter_6_8/lib/tabbar_view_demo.dart)
